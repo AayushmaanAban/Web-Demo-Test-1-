@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catalog — MOON</title>
+<meta name="description" content="Every MOON silhouette currently in the studio — boot cuts, bell bottoms, convertible denim, boxy shirting and leopard linen caps.">
+<meta name="theme-color" content="#0c0c0c">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.shopify.com">
+<link rel="preconnect" href="https://api.fontshare.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="assets/css/satoshi.css?v=3">
+</head>
+<body data-page="shop">
+<div id="moon-chrome-top"></div>
+
+<main id="main">
+  <div class="wrap">
+    <nav class="breadcrumbs" aria-label="Breadcrumb" style="padding-top:1.5rem">
+      <a href="index.html">Home</a>
+      <span aria-hidden="true">/</span>
+      <span data-crumbs-current>Catalog</span>
+    </nav>
+  </div>
+
+  <header class="page-head wrap">
+    <span class="eyebrow">Drop 01 &middot; limited run</span>
+    <h1 class="page-head__title" style="margin-top:.75rem" data-collection-title>The Catalog</h1>
+    <p class="lede muted" style="max-width:62ch;margin-top:1rem" data-collection-blurb>Every MOON silhouette currently in the studio &mdash; bottoms are the signature category.</p>
+  </header>
+
+  <div class="toolbar">
+    <div class="wrap wrap--wide toolbar__inner">
+      <nav class="facets" aria-label="Filter by category" data-facets></nav>
+      <div class="toolbar__right">
+        <span class="micro muted" data-result-count aria-live="polite"></span>
+        <div class="select-wrap">
+          <label class="sr-only" for="sort">Sort products</label>
+          <select id="sort" data-sort>
+            <option value="featured">Featured</option>
+            <option value="price-asc">Price: low to high</option>
+            <option value="price-desc">Price: high to low</option>
+            <option value="title-asc">Alphabetical: A&ndash;Z</option>
+            <option value="title-desc">Alphabetical: Z&ndash;A</option>
+          </select>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m6 9 6 6 6-6"/></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section section--tight" aria-label="Products">
+    <div class="wrap">
+      <div data-render="shop-grid"></div>
+    </div>
+  </section>
+
+  <section class="section section--tight" aria-labelledby="made-to">
+    <div class="wrap">
+      <div class="split">
+        <div class="split__body">
+          <span class="eyebrow">How a MOON piece is made</span>
+          <h2 class="h2 serif" id="made-to" style="margin:.75rem 0 1.25rem">Small runs, altered by hand, finished by the wearer.</h2>
+          <p class="muted">Runs are capped because the units are small. Bottoms are cut locally, tops are finished with details that let you adjust the silhouette yourself &mdash; velcro side tabs, waist straps, a button system that turns a trouser into a jort.</p>
+          <p class="muted" style="margin-top:1rem">Convertible construction and surface detail are part of the design language, alongside beadwork, tiger and leopard references and saree upcycling.</p>
+          <div style="margin-top:2rem;display:flex;gap:.75rem;flex-wrap:wrap">
+            <a class="btn btn--outline" href="about.html">Read the brand DNA</a>
+            <a class="btn btn--outline" href="journal.html">Studio journal</a>
+          </div>
+        </div>
+        <div class="split__media" data-render="maker-still"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="moon-chrome-bottom"></div>
+<script src="assets/js/products.js?v=3"></script>
+<script src="assets/js/site.js?v=3"></script>
+</body>
+</html>
